@@ -1,0 +1,11 @@
+id = "risor"
+name = "Risor"
+version = "0.0.1"
+schema_version = 1
+authors = ["Sergio Rubio <rubiojr@rbel.co>"]
+description = "Risor language extension"
+repository = "https://github.com/rubiojr/zed-risor"
+
+[grammars.risor]
+repository = "https://github.com/applejag/tree-sitter-risor"
+commit = "98f7c0d45176925338f91489964e0a0d819477a5"
