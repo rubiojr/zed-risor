@@ -4,6 +4,10 @@
 
 Based on https://github.com/applejag/tree-sitter-risor
 
+## Pre-requisites
+
+rustc, rustup and cargo are required to build the extension (Zed uses `rustc and rustup` when installing developer extesions).
+
 ## Installation
 
 I don't have plans to add the extension to Zed community extensions for now, so to install it:
