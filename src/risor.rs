@@ -39,10 +39,7 @@ impl RisorExtension {
             &language_server_id,
             &zed::LanguageServerInstallationStatus::CheckingForUpdate,
         );
-        // We're pinning ZLS to a release that has `.tar.gz` assets, since the latest release does not have
-        // them, at time of writing.
-        //
-        // ZLS tracking issue: https://github.com/zigtools/zls/issues/1879
+
         let release = zed::latest_github_release(
             "risor-io/risor",
             GithubReleaseOptions {
@@ -127,14 +124,11 @@ impl zed::Extension for RisorExtension {
         language_server_id: &LanguageServerId,
         worktree: &zed::Worktree,
     ) -> Result<zed::Command> {
-        let risor_langserver_binary =
-            self.language_server_binary(language_server_id, worktree)?;
+        let risor_langserver_binary = self.language_server_binary(language_server_id, worktree)?;
         Ok(zed::Command {
             command: risor_langserver_binary.path,
             args: vec![],
-            env: risor_langserver_binary
-                .environment
-                .unwrap_or_default(),
+            env: risor_langserver_binary.environment.unwrap_or_default(),
         })
     }
 }

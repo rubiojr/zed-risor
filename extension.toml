@@ -10,6 +10,6 @@ repository = "https://github.com/rubiojr/zed-risor"
 repository = "https://github.com/applejag/tree-sitter-risor"
 commit = "98f7c0d45176925338f91489964e0a0d819477a5"
 
-[language_servers.my-language]
-name = "risor"
-language = "Risor"
+#[language_servers.my-language]
+#name = "risor"
+#language = "Risor"
