@@ -5,10 +5,11 @@ schema_version = 1
 authors = ["Sergio Rubio <rubiojr@rbel.co>"]
 description = "Risor language extension"
 repository = "https://github.com/rubiojr/zed-risor"
+path_suffixes = ["risor", "rsr"]
 
 [grammars.risor]
 repository = "https://github.com/applejag/tree-sitter-risor"
-commit = "98f7c0d45176925338f91489964e0a0d819477a5"
+commit = "bec6f2e385597d0cae55b38f54515eee5f0ebffd"
 
 #[language_servers.my-language]
 #name = "risor"
