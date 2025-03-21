@@ -4,6 +4,9 @@
 
 Based on https://github.com/applejag/tree-sitter-risor
 
+> [!NOTE]
+> Only syntax highlighting supported, no LSP server available.
+
 ## Pre-requisites
 
 rustc, rustup and cargo are required to build the extension (Zed uses `rustc and rustup` when installing developer extesions).
