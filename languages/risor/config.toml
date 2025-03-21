@@ -2,7 +2,7 @@ name = "Risor"
 grammar = "risor"
 path_suffixes = ["risor"]
 first_line_pattern = "^#!.*\\brisor\\b"
-line_comments = ["// "]
+line_comments = ["// ", "#"]
 tab_size = 2
 autoclose_before = ";:.,=}])>"
 brackets = [

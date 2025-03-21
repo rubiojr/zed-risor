@@ -1,6 +1,6 @@
 id = "risor"
 name = "Risor"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Sergio Rubio <rubiojr@rbel.co>"]
 description = "Risor language extension"
@@ -9,8 +9,4 @@ path_suffixes = ["risor", "rsr"]
 
 [grammars.risor]
 repository = "https://github.com/applejag/tree-sitter-risor"
-commit = "bec6f2e385597d0cae55b38f54515eee5f0ebffd"
-
-#[language_servers.my-language]
-#name = "risor"
-#language = "Risor"
+rev = "bec6f2e385597d0cae55b38f54515eee5f0ebffd"
