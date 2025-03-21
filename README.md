@@ -13,8 +13,9 @@ rustc, rustup and cargo are required to build the extension (Zed uses `rustc and
 
 ## Installation
 
-I don't have plans to add the extension to Zed community extensions for now, so to install it:
+It can be installed from the Zed extensions marketplace.
 
+### As a dev extensions
 * Clone this repository
 * Use Zed's install developer extension command
 * Point it to the cloned repo directory
